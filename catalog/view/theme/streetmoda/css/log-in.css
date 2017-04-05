@@ -1,0 +1,346 @@
+.content-log-in .bread-crumbs {
+
+  border-bottom: none;
+
+  padding-bottom: 7px;
+
+  margin: 22px 0px 0px 8px;
+
+}
+
+
+
+.log-in {
+
+  position: relative;
+
+  background-color: white;
+
+  border: 1px solid #b1b1b1;
+
+  border-radius: 3px;
+
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+
+  margin-left: 0px;
+
+  margin-bottom: 13px;
+
+}
+
+.log-in .change-personal-data {
+
+  position: absolute;
+
+  top: 92px;
+
+  left: 258px;
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+
+  color: #2a2a2a;
+
+  font-style: italic;
+
+}
+
+.log-in .description-of-the-personal-account {
+
+  position: absolute;
+
+  top: 85px;
+
+  right: 12px;
+
+  width: 247px;
+
+  height: 154px;
+
+  background-color: #f9f9f9;
+
+  border: 1px solid #e5e5e5;
+
+}
+
+.log-in .description-of-the-personal-account h6 {
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  line-height: 18px;
+
+  color: #2a2a2a;
+
+  padding: 18px 0px 18px 25px;
+
+}
+
+.log-in .description-of-the-personal-account p {
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+
+  color: #2a2a2a;
+
+  padding: 0 16px 0 25px;
+
+}
+
+.log-in h3 {
+
+  font-family: "sans-regular";
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  line-height: 30px;
+
+  color: #2a2a2a;
+
+  text-transform: uppercase;
+
+  padding: 24px 0 11px 0;
+
+  margin: 0px 14px 20px 35px;
+
+  border-bottom: 1px solid #b1b1b1;
+
+}
+
+.log-in .tabs {
+
+  margin: 0px;
+
+  border-bottom: none;
+
+  height: auto;
+
+  width: 255px;
+
+}
+
+.log-in .tabs li {
+
+  float: none;
+
+  width: 212px;
+
+  height: 34px;
+
+  background-color: #b1b1b1;
+
+  border-radius: 3px;
+
+  margin: 0 10px 10px 35px;
+
+  text-align: left;
+
+}
+
+.log-in .tabs li:last-child {
+  margin-bottom: 30px;
+}
+
+.log-in .tabs li a {
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 34px;
+
+  color: #fff;
+
+  text-transform: uppercase;
+
+  padding: 0 0 0 10px;
+
+  border: none;
+
+}
+
+.log-in .tabs li a:hover {
+
+  background-color: transparent;
+
+}
+
+.log-in .tabs li a:active {
+
+  border: 1px solid transparent;
+
+}
+
+.log-in .tabs li a:visited {
+
+  background-color: #7A7A7A;
+
+}
+
+.log-in .tabs li:hover {
+
+  background-color: #989898 !important;
+
+  -webkit-transition: 0.2s;
+
+          transition: 0.2s;
+
+}
+
+.log-in .tabs li:not(:hover) {
+
+  -webkit-transition: 0.2s;
+
+          transition: 0.2s;
+
+}
+
+.log-in .tab-content-edit h3 {
+
+  padding: 22px 0 11px 0;
+
+  margin: 0px 14px 18px 35px;
+
+}
+
+.log-in .tab-content-edit table {
+
+  text-align: center;
+
+  width: 973px;
+
+  /*height: 211px;*/
+
+  border: 1px solid #b1b1b1;
+
+  border-radius: 0px 1px 0px 0px;
+
+  margin: 0 0 43px 35px;
+
+}
+
+.log-in .tab-content-edit table tr {
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  line-height: 18px;
+
+  color: #2a2a2a;
+
+}
+
+.log-in .tab-content-edit table tr td {
+
+  vertical-align: middle;
+
+  border-right: 1px solid #b1b1b1;
+
+  width: 114px;
+
+  padding: 10px 5px;
+
+}
+
+.log-in .tab-content-edit table tr td .dropdown .btn-default {
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  line-height: 18px;
+
+  color: #2a2a2a;
+
+  background-color: transparent;
+
+  border: none;
+
+}
+
+.log-in .tab-content-edit table tr td .dropdown .btn-default:hover {
+
+  text-decoration: underline;
+
+}
+
+.log-in .tab-content-edit table tr td .dropdown .btn-default:focus,
+
+.log-in .tab-content-edit table tr td .dropdown .btn-default:active {
+
+  background-color: transparent;
+
+}
+
+.log-in .tab-content-edit table tr td .dropdown .dropdown-menu {
+
+  position: relative;
+
+  margin: 0;
+
+  border: none;
+
+  box-shadow: none;
+
+  background-color: transparent;
+
+}
+
+.log-in .tab-content-edit table tr td .dropdown .dropdown-menu li {
+
+  height: auto;
+
+  width: 100%;
+
+  margin: 0;
+
+}
+
+.log-in .tab-content-edit table tr:first-child {
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+
+  color: #2a2a2a;
+
+  /*font-style: italic;*/
+
+  border-bottom: 1px solid #b1b1b1;
+
+}
+
+.log-in .tab-content-edit table tr:hover {
+
+  background-color: #ddd6bc;
+
+}
+
+
+/*# sourceMappingURL=log-in.css.map */

@@ -1,0 +1,147 @@
+.content-returns .bread-crumbs {
+  border-bottom: none;
+  padding-bottom: 7px;
+  margin: 22px 0px 0px 8px;
+}
+
+.registration {
+  position: relative;
+  background-color: white;
+  border: 1px solid #b1b1b1;
+  border-radius: 3px;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+  margin-left: 8px;
+  margin-bottom: 13px;
+}
+.registration .cursiv {
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2a2a2a;
+  font-style: italic;
+  padding-left: 35px;
+  padding-bottom: 20px;
+}
+.registration h3 {
+  font-family: "sans-regular";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  padding: 24px 0 11px 0;
+  margin: 0px 14px 20px 35px;
+  border-bottom: 1px solid #b1b1b1;
+}
+.registration form {
+  margin-left: 35px;
+}
+.registration form p {
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2a2a2a;
+}
+.registration form p span {
+  color: #e61b26;
+}
+.registration form input[type="text"],
+.registration form input[type="email"],
+.registration form input[type="number"],
+.registration form input[type="date"],
+.registration form input[type="tel"],
+.registration form input[type="password"],
+.registration form select {
+  width: 227px;
+  height: 24px;
+  border: 1px solid #b1b1b1;
+  border-radius: 0px 1px 0px 0px;
+  margin-bottom: 15px;
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2a2a2a;
+  padding: 0 10px;
+  margin-top: 5px;
+}
+.registration form input[type="checkbox"] {
+  position: relative;
+  top: 3px;
+  left: 5px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #b1b1b1;
+  border-radius: 0px 1px 0px 0px;
+}
+.registration form .unpacked-goods,
+.registration form .reason-for-return {
+  padding: 22px 10px;
+}
+.registration form .unpacked-goods input,
+.registration form .reason-for-return input {
+  position: relative;
+  top: 2px;
+}
+.registration form textarea {
+  width: 420px;
+  height: 89px;
+  border: 1px solid #b1b1b1;
+  border-radius: 0px 1px 0px 0px;
+  resize: none;
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2a2a2a;
+  padding: 10px;
+  margin-bottom: 22px;
+  margin-top: 5px;
+}
+.registration form a,
+.registration form .submit {
+  display: inline-block;
+}
+.registration form a {
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2a2a2a;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+.registration form .submit:hover {
+  background-color: #989898;
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+}
+.registration form .submit:not(:hover) {
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+}
+.registration form .submit {
+  border: none;
+  width: 162px;
+  height: 34px;
+  background-color: #b1b1b1;
+  border-radius: 3px;
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.registration form .necessarily {
+  border-top: 1px solid #b1b1b1;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-right: 14px;
+}
+
+/*# sourceMappingURL=registration.css.map */

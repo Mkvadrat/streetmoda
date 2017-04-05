@@ -1,0 +1,116 @@
+2017-02-07 5:33:45 - PHP Warning:  unlink(/home/streetmodaopt/public_html/system/storage/cache/cache.language.1486394829): No such file or directory in /home/streetmodaopt/public_html/system/library/cache/file.php on line 17
+2017-02-07 5:33:45 - PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/session.php on line 21
+2017-02-07 5:33:45 - PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/session.php on line 21
+2017-02-07 5:33:45 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/index.php on line 186
+2017-02-07 5:33:45 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/currency.php on line 45
+2017-02-07 5:33:46 - PHP Warning:  unlink(/home/streetmodaopt/public_html/system/storage/cache/cache.category.seopath.1486449226): No such file or directory in /home/streetmodaopt/public_html/system/library/cache/file.php on line 68
+2017-02-07 13:28:31 - PHP Warning:  unlink(/home/streetmodaopt/public_html/system/storage/cache/cache.category.seopath.1486461298): No such file or directory in /home/streetmodaopt/public_html/system/library/cache/file.php on line 17
+2017-02-07 13:28:31 - PHP Warning:  unlink(/home/streetmodaopt/public_html/system/storage/cache/cache.language.1486461298): No such file or directory in /home/streetmodaopt/public_html/system/library/cache/file.php on line 17
+2017-02-07 13:28:31 - PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/session.php on line 21
+2017-02-07 13:28:31 - PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/session.php on line 21
+2017-02-07 13:28:31 - PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/session.php on line 21
+2017-02-07 13:28:31 - PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/session.php on line 21
+2017-02-07 13:28:31 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/index.php on line 186
+2017-02-07 13:28:31 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/index.php on line 186
+2017-02-07 13:28:31 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/currency.php on line 45
+2017-02-07 13:28:31 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/currency.php on line 45
+2017-02-27 16:18:33 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-27 16:19:22 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-27 16:23:25 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-27 16:23:30 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-27 16:23:36 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-27 16:23:50 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:18:42 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:18:49 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:18:49 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:18:53 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:20:31 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:20:34 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:23:48 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:23:57 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:26:52 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 281
+2017-02-28 11:26:53 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 281
+2017-02-28 11:27:11 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 281
+2017-02-28 11:27:11 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 281
+2017-02-28 11:27:11 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 281
+2017-02-28 11:27:34 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:28:59 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:29:08 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:29:27 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:31:24 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 283
+2017-02-28 11:31:42 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 283
+2017-02-28 11:32:07 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 283
+2017-02-28 11:32:58 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 284
+2017-02-28 11:33:47 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 279
+2017-02-28 11:36:22 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 267
+2017-02-28 11:36:22 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 283
+2017-02-28 11:36:22 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 267
+2017-02-28 11:36:22 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 283
+2017-02-28 11:36:22 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 267
+2017-02-28 11:36:22 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 283
+2017-02-28 11:36:25 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 267
+2017-02-28 11:36:25 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 283
+2017-02-28 11:36:25 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 267
+2017-02-28 11:36:25 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 283
+2017-02-28 11:36:25 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 267
+2017-02-28 11:36:25 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 283
+2017-02-28 11:37:15 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 269
+2017-02-28 11:37:15 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 285
+2017-02-28 11:37:22 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 269
+2017-02-28 11:37:22 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 285
+2017-02-28 11:40:12 - PHP Notice:  Undefined index: req in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/category.tpl on line 84
+2017-02-28 11:40:48 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 277
+2017-02-28 11:40:52 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 277
+2017-02-28 11:44:01 - PHP Notice:  Undefined variable: req in /home/streetmodaopt/public_html/catalog/controller/product/category.php on line 283
+2017-02-28 11:54:43 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/category.tpl on line 86
+2017-02-28 11:54:43 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/category.tpl on line 86
+2017-02-28 11:59:35 - PHP Notice:  Undefined variable: image in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/product.tpl on line 29
+2017-02-28 11:59:35 - PHP Notice:  Undefined variable: image in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/product.tpl on line 29
+2017-02-28 11:59:40 - PHP Notice:  Undefined variable: image in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/product.tpl on line 29
+2017-02-28 11:59:40 - PHP Notice:  Undefined variable: image in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/product.tpl on line 29
+2017-02-28 11:59:55 - PHP Notice:  Undefined variable: image in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/product.tpl on line 29
+2017-02-28 11:59:55 - PHP Notice:  Undefined variable: image in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/product.tpl on line 29
+2017-02-28 12:00:28 - PHP Notice:  Undefined variable: image in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/product.tpl on line 28
+2017-02-28 12:00:28 - PHP Notice:  Undefined variable: image in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/product.tpl on line 28
+2017-02-28 12:00:34 - PHP Notice:  Undefined variable: image in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/product.tpl on line 28
+2017-02-28 12:00:34 - PHP Notice:  Undefined variable: image in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/product.tpl on line 28
+2017-02-28 12:02:01 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/category.tpl on line 86
+2017-02-28 12:02:01 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/category.tpl on line 86
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-02-28 12:35:36 - PHP Notice:  Undefined variable: current_language in /home/streetmodaopt/public_html/admin/view/template/module/imagemanager.tpl on line 33
+2017-03-27 13:46:10 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/category.tpl on line 86
+2017-03-27 13:46:10 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/category.tpl on line 86
+2017-03-27 13:47:42 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/category.tpl on line 86
+2017-03-27 13:47:42 - PHP Warning:  array_search() expects parameter 2 to be array, boolean given in /home/streetmodaopt/public_html/catalog/view/theme/streetmoda/template/product/category.tpl on line 86
+2017-03-31 3:25:47 - PHP Warning:  unlink(/home/streetmodaopt/public_html/system/storage/cache/cache.category.seopath.1490878447): No such file or directory in /home/streetmodaopt/public_html/system/library/cache/file.php on line 17
+2017-03-31 3:25:47 - PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/session.php on line 21
+2017-03-31 3:25:47 - PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/session.php on line 21
+2017-03-31 3:25:47 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/index.php on line 186
+2017-03-31 3:25:47 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/currency.php on line 45

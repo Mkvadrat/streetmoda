@@ -1,0 +1,15 @@
+/* font-family: "sans-regular"; */
+@font-face {
+	font-family: "sans-regular";
+	src: url("../fonts/sans-regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "sans-bold"; */
+@font-face {
+	font-family: "sans-bold";
+	src: url("../fonts/sans-bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

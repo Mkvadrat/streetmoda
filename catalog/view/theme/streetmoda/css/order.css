@@ -1,0 +1,261 @@
+.content-drawing-up-order .bread-crumbs {
+  border-bottom: none;
+  padding-bottom: 7px;
+  margin: 22px 0px 0px 8px;
+}
+
+.drawing-up-order {
+  position: relative;
+  background-color: white;
+  border: 1px solid #b1b1b1;
+  border-radius: 3px;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+  margin-left: 8px;
+  margin-bottom: 13px;
+}
+.drawing-up-order .cursiv {
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2a2a2a;
+  font-style: italic;
+  padding-bottom: 3px;
+}
+.drawing-up-order h3 {
+  font-family: "sans-regular";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  padding: 24px 0 11px 0;
+  margin: 0px 14px 20px 35px;
+  border-bottom: 1px solid #b1b1b1;
+}
+.drawing-up-order .continue-shopping {
+  display: block;
+  text-align: center;
+  width: 173px;
+  height: 34px;
+  background-color: #b1b1b1;
+  border-radius: 3px;
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #fff;
+  text-transform: uppercase;
+  float: right;
+  margin-top: 22px;
+  margin-right: 14px;
+  text-decoration: none;
+}
+.drawing-up-order .continue-shopping:hover {
+  background-color: #989898;
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+}
+.drawing-up-order .continue-shopping:not(:hover) {
+  -webkit-transition: 0.2s;
+          transition: 0.2s;
+}
+.drawing-up-order .personal-data {
+  margin-left: 35px;
+}
+.drawing-up-order .personal-data input[type="text"],
+.drawing-up-order .personal-data input[type="phones"] {
+  width: 139px;
+  height: 40px;
+  border: 1px solid #b1b1b1;
+  border-radius: 0px 1px 0px 0px;
+  padding: 5px;
+  font-family: "sans-regular";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2a2a2a;
+  margin-bottom: 15px;
+}
+.drawing-up-order .personal-data input[type="phones"] {
+  width: 80px;
+  height: 17px;
+  padding: 0px;
+}
+.drawing-up-order .personal-data .series-pasport {
+  width: 28px !important;
+  height: 17px !important;
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+.drawing-up-order .personal-data .number-pasport {
+  width: 61px !important;
+  height: 17px !important;
+  margin-bottom: 0 !important;
+  padding: 0;
+}
+.drawing-up-order .personal-data .for-russia {
+  padding-bottom: 20px;
+}
+.drawing-up-order .personal-data textarea {
+  width: 215px;
+  height: 90px;
+  border: 1px solid #b1b1b1;
+  border-radius: 0px 1px 0px 0px;
+  resize: none;
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2a2a2a;
+  padding: 10px;
+  margin-bottom: 22px;
+  margin-top: 5px;
+}
+.drawing-up-order .your-order {
+  float: right;
+  width: 94%;
+  height: auto;
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  margin-right: 12px;
+}
+.drawing-up-order .your-order h4 {
+  font-family: "sans-regular";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  padding: 14px 0 11px 20px;
+  margin: 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.drawing-up-order .your-order .about-order {
+  position: relative;
+}
+.drawing-up-order .your-order .about-order button {
+  position: absolute;
+  top: -2px;
+  left: 12px;
+  width: 15px;
+  height: 15px;
+  font-family: "sans-regular";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 11px;
+  color: #e61b26;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+}
+.drawing-up-order .your-order .about-order img {
+  float: left;
+  width: 122px;
+  height: 113px;
+  background-color: white;
+  border: 1px solid #b1b1b1;
+  border-radius: 3px;
+  margin: 2px 10px 15px 30px;
+}
+.drawing-up-order .your-order .about-order a {
+  display: block;
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #0c73e7;
+  margin-top: 15px;
+  overflow: hidden;
+}
+.drawing-up-order .your-order .about-order ul {
+  margin-top: 15px;
+}
+.drawing-up-order .your-order .about-order ul li {
+  display: inline-block;
+  margin: 0;
+  width: auto;
+  height: auto;
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2a2a2a;
+}
+.drawing-up-order .your-order .about-order ul li span {
+  color: #e61b26;
+}
+.drawing-up-order .your-order .about-order ul li input[type="text"] {
+  width: 38px;
+  height: 16px;
+  background-color: white;
+  border: 1px solid #e5e5e5;
+  margin-left: 50px;
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2a2a2a;
+}
+.drawing-up-order .your-order .about-order ul li input[type="submit"] {
+  background-color: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  margin-left: 6px;
+  margin-right: 60px;
+  background-image: url(../images/enter.png);
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 16px;
+  background-position: 3px 4px;
+}
+.drawing-up-order .your-order .about-order .clearer {
+  clear: both;
+}
+.drawing-up-order .agreement-user {
+  border-top: 1px solid #b1b1b1;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-right: 14px;
+  margin-left: 35px;
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #2a2a2a;
+  clear: both;
+}
+.drawing-up-order .agreement-user a {
+  color: #0c73e7;
+}
+.drawing-up-order .agreement-user .confirm-order {
+  display: block;
+  text-align: center;
+  width: 197px;
+  height: 34px;
+  background-color: #e61b26;
+  border-radius: 3px;
+  font-family: "sans-regular";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #fff;
+  text-transform: uppercase;
+  float: right;
+  margin-top: -8px;
+  margin-right: 14px;
+  text-decoration: none;
+}
+.drawing-up-order .confirm-order:hover {
+  background-color: #bc0f19;
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+}
+.drawing-up-order .confirm-order:not(:hover) {
+  -webkit-transition: 0.3s;
+          transition: 0.3s;
+}
+
+/*# sourceMappingURL=order.css.map */

@@ -1,0 +1,445 @@
+.bread-crumbs {
+
+  margin: 22px 0px 30px 8px;
+
+  padding-bottom: 9px;
+
+  border-bottom: 1px solid #b1b1b1;
+
+}
+
+.bread-crumbs p {
+
+  text-align: left;
+
+}
+
+.bread-crumbs p a,
+
+.bread-crumbs p span {
+
+  display: inline-block;
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 16px;
+
+  color: #2a2a2a;
+
+  #margin-left: 10px;
+
+}
+
+.bread-crumbs .active {
+
+  font-weight: 700 !important;
+
+}
+
+.bread-crumbs .bread-crumbs-numbers {
+
+  float: right;
+
+}
+
+
+
+.objects {
+
+  text-align: center;
+
+}
+
+.objects .more-buy,
+
+.objects .add-to-bookmarks {
+
+  display: none;
+
+}
+
+.objects .box-object {
+
+  border-radius: 3px;
+
+  height: 392px !important;
+
+  margin-right: 11px !important;
+
+}
+
+.objects .box-object:last-child {
+
+  margin-bottom: 20px;
+
+}
+
+.objects .box-object:nth-child(3n+3) {
+
+  margin-right: 0px !important;
+
+}
+
+.objects .box-object:hover {
+
+  outline: 1px solid #b1b1b1;
+
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+
+}
+
+.objects .box-object:hover .more-buy,
+
+.objects .box-object:hover .add-to-bookmarks {
+
+  display: block;
+
+}
+
+.objects img {
+
+  width: 225px;
+
+  height: 200px;
+
+  margin-top: 14px;
+
+  margin-bottom: 3px;
+
+}
+
+.objects h6 {
+
+  font-family: "sans-regular";
+
+  font-size: 16px;
+
+  font-weight: 700;
+
+  line-height: 18px;
+
+  color: #2a2a2a;
+
+}
+
+.objects .price {
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+
+  color: #2a2a2a;
+
+}
+
+.objects .price a {
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  line-height: 18px;
+
+  color: #2a2a2a;
+
+  font-style: italic;
+
+}
+
+.objects .price a:hover {
+
+  text-decoration: underline;
+
+}
+
+.objects .packed-measurements,
+
+.objects .color {
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 18px;
+
+  color: #2a2a2a;
+
+  margin: 0px;
+
+}
+
+.objects .packed-measurements li,
+
+.objects .color li {
+
+  float: none;
+
+  width: auto;
+
+  height: auto;
+
+  margin: 0px;
+
+  display: inline-block;
+
+}
+
+.objects .color li {
+
+  margin-right: 6px !important;
+
+  border-radius: 3px !important;
+
+}
+
+.objects .color a {
+
+  display: block;
+
+  width: 15px;
+
+  height: 15px;
+
+  border-radius: 3px !important;
+
+}
+
+.objects .color a img {
+  width: 15px;
+  height: 15px;
+  margin-top: 0px;
+}
+
+.objects .color a:hover img {
+
+  transform: scale(1.2) !important;
+
+}
+
+.objects .color li:hover {
+      box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 1);
+}
+
+.objects .color li:first-child {
+  box-shadow: none;
+}
+/*.objects .color li:nth-child(2) a {
+
+  background-color: #e62929;
+
+}
+
+.objects .color li:nth-child(3) a {
+
+  background-color: #2748c4;
+
+}
+
+.objects .color li:nth-child(4) a {
+
+  background-color: #129760;
+
+}
+
+.objects .color li:nth-child(5) a {
+
+  background-color: #902dcf;
+
+}*/
+
+.objects .more-buy {
+
+  margin-bottom: 8px;
+
+  margin-top: 5px;
+
+}
+
+.objects .more-buy a {
+
+  display: inline-block;
+
+  width: 110px;
+
+  height: 34px;
+
+  border-radius: 3px;
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 34px;
+
+  color: #fff;
+
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+}
+
+.objects .more-buy a:first-child {
+
+  background-color: #b1b1b1;
+
+  margin-right: 5px;
+
+}
+
+.objects .more-buy a:first-child:hover {
+
+  background-color: #878686;
+
+  -webkit-transition: 0.3s;
+
+          transition: 0.3s;
+
+}
+
+.objects .more-buy a:first-child:not(:hover) {
+
+  -webkit-transition: 0.3s;
+
+          transition: 0.3s;
+
+}
+
+.objects .more-buy a:last-child {
+
+  background-color: #e61b26;
+
+  text-align: right;
+
+  padding-right: 20px;
+
+}
+
+.in-bascet {
+  padding-right: 7px !important;
+}
+
+.objects .more-buy a:last-child i {
+
+  padding-right: 5px;
+
+  font-size: 19px;
+
+  position: relative;
+
+  top: 1px;
+
+}
+
+.objects .more-buy a:last-child:hover {
+
+  background-color: #bc0f19;
+
+  -webkit-transition: 0.3s;
+
+          transition: 0.3s;
+
+}
+
+.objects .more-buy a:last-child:not(:hover) {
+
+  -webkit-transition: 0.3s;
+
+          transition: 0.3s;
+
+}
+
+.objects .more-buy a:first-child:active,
+
+.objects .more-buy a:last-child:active {
+
+  position: relative;
+
+  top: 1px;
+
+  left: 1px;
+
+}
+
+.objects .add-to-bookmarks {
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 16px;
+
+  color: #2a2a2a;
+
+  cursor: pointer;
+
+}
+
+.objects .add-to-bookmarks:hover {
+
+  text-decoration: underline;
+
+}
+
+.objects .bread-crumbs-numbers-bottom {
+
+  text-align: right;
+
+  padding: 17px 0px 10px;
+
+  margin-top: 10px;
+
+  border-top: 1px solid #b1b1b1;
+
+  clear: both;
+
+  margin-left: 8px;
+
+}
+
+.objects .bread-crumbs-numbers a,
+
+.objects .bread-crumbs-numbers-bottom a,
+
+.objects .bread-crumbs-numbers-bottom span {
+
+  display: inline-block;
+
+  font-family: "sans-regular";
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 16px;
+
+  color: #2a2a2a;
+
+  margin-left: 10px;
+
+}
+
+.objects .bread-crumbs-numbers-bottom .active {
+
+  font-weight: 700 !important;
+
+}
+
+
+/*# sourceMappingURL=object.css.map */

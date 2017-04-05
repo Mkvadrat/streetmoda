@@ -1,0 +1,48 @@
+.content-returns .bread-crumbs {
+  border-bottom: none;
+  padding-bottom: 7px;
+  margin: 22px 0px 0px 8px;
+}
+
+.not-found {
+  position: relative;
+  background-color: white;
+  border: 1px solid #b1b1b1;
+  border-radius: 3px;
+  box-shadow: 0 7px 7px rgba(0, 0, 0, 0.3);
+  margin-left: 8px;
+  margin-bottom: 13px;
+}
+.not-found h3 {
+  font-family: "sans-regular";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2a2a2a;
+  text-transform: uppercase;
+  padding: 24px 0 11px 0;
+  margin: 0px 14px 20px 35px;
+  border-bottom: 1px solid #b1b1b1;
+}
+.not-found p {
+  font-family: "sans-regular";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2a2a2a;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 91px;
+  padding-bottom: 80px;
+}
+.not-found p span {
+  font-family: "sans-regular";
+  font-size: 172px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #2a2a2a;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=404.css.map */
