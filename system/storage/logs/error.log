@@ -114,3 +114,4 @@
 2017-03-31 3:25:47 - PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/session.php on line 21
 2017-03-31 3:25:47 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/index.php on line 186
 2017-03-31 3:25:47 - PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/streetmodaopt/public_html/index.php:99) in /home/streetmodaopt/public_html/system/library/currency.php on line 45
+2017-04-06 16:27:35 - PHP Warning:  session_start(): open(/tmp/sess_o4bb6p67nss2643tp71eb5vfq0, O_RDWR) failed: No such file or directory (2) in /var/www/vhosts/3331141.xeovo.ml/public_html/streetmoda/system/library/session.php on line 21
