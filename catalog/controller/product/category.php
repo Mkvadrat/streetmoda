@@ -247,7 +247,7 @@ class ControllerProductCategory extends Controller {
 						if(!empty($option['required'])){
 							$req[] = $option['required'];
 						}else{
-							$req = false;
+							$req[] = false;
 						}
 
 						foreach($option['product_option_value'] as $value){
