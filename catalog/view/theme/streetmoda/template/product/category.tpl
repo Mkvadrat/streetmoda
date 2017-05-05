@@ -3,9 +3,6 @@
   <?php echo $column_left; ?>
     <div class="content objects"><?php echo $content_top; ?>
     <div id="content" class="bread-crumbs">
-                <p class="bread-crumbs-numbers">
-                    <?php echo $pagination; ?>
-                </p>
 
                 <p>
 <?php
