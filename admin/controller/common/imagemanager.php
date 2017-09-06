@@ -7,12 +7,20 @@ class ControllerCommonImageManager extends Controller {
 		$this->document->setTitle($this->language->get('text_imagemanager'));
 			
 		$data['heading_title'] = $this->language->get('text_imagemanager');
-				
+						
 		if (isset($this->request->get['thumb'])) {
             $data['thumb'] = $this->request->get['thumb'];
         } else {
             $data['thumb'] = '';
-        }	
+        }
+		
+		if (isset($this->request->server['HTTPS']) && (($this->request->server['HTTPS'] == 'on') || ($this->request->server['HTTPS'] == '1'))) {
+			   $catalog_protocol = HTTPS_CATALOG;
+		} else {
+			  $catalog_protocol = HTTP_CATALOG;
+		}
+	
+		$data['sound_path'] = $catalog_protocol . 'sounds/';
 								
 		if (isset($this->request->get['target'])) {
             $data['target'] = $this->request->get['target'];
@@ -45,10 +53,7 @@ class ControllerCommonImageManager extends Controller {
 		
 	public function init(){
 				
-		include_once DIR_SYSTEM . 'library/imagemanager/elFinderConnector.class.php';
-		include_once DIR_SYSTEM . 'library/imagemanager/elFinder.class.php';
-		include_once DIR_SYSTEM . 'library/imagemanager/elFinderVolumeDriver.class.php';
-		include_once DIR_SYSTEM . 'library/imagemanager/elFinderVolumeLocalFileSystem.class.php';
+		include_once DIR_SYSTEM . 'library/imagemanager/autoload.php';
 		
 		if (isset($this->request->server['HTTPS']) && (($this->request->server['HTTPS'] == 'on') || ($this->request->server['HTTPS'] == '1'))) {
 			   $catalog_protocol = HTTPS_CATALOG;
@@ -64,10 +69,10 @@ class ControllerCommonImageManager extends Controller {
 					'driver'        => 'LocalFileSystem',   // driver for accessing file system (REQUIRED)
 					'path'          => DIR_IMAGE . 'catalog/',         // path to files (REQUIRED)
 					'URL'           => $catalog_protocol . 'image/catalog/', // URL to files (REQUIRED)
+					'winHashFix'    => DIRECTORY_SEPARATOR !== '/', // to make hash same to Linux one on windows too
 					'accessControl' => 'access' ,            // disable and hide dot starting files (OPTIONAL)
-					//'alias'=>'Images',
 					'defaults' => array('read' => true, 'write' => true),
-					'uploadMaxSize'=>'20M',
+					'uploadMaxSize'=>'200M',
 					'uploadAllow' => array(
 						'image/jpeg',
 						'image/pjpeg',
@@ -81,7 +86,6 @@ class ControllerCommonImageManager extends Controller {
 					'attributes' => array(
 						array(
 							'pattern' => '~/\.~',
-							// 'pattern' => '/^\/\./',
 							'read' => true,
 							'write' => true,
 							'hidden' => true,

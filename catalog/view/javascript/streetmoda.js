@@ -281,6 +281,20 @@ var cart = {
 	            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
 	        }
 		});
+	},
+	'removecart': function(key) {
+		$.ajax({
+			url: 'index.php?route=checkout/cart/remove',
+			type: 'post',
+			data: 'key=' + key,
+			dataType: 'json',
+			success: function(json) {
+				setTimeout(function() {window.location.reload();}, 1);
+			},
+	        error: function(xhr, ajaxOptions, thrownError) {
+	            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+	        }
+		});
 	}
 }
 

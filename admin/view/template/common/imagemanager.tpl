@@ -15,18 +15,18 @@
 </div>
 
 <!-- ADD ELFINDER LANGUAGE -->
-<script type="text/javascript" src="view/javascript/imagemanager/elFinder/js/i18n/elfinder.<?php echo $language; ?>.js"></script>
+<script type="text/javascript" src="view/javascript/imagemanager/elFinder/js/i18n/elfinder.ru.js"></script>
 
 <script>
 $(document).ready(function() {
 	$('#elfinder').elfinder({
 		url: 'index.php?route=common/imagemanager/init&token=' + getURLVar('token'),
-		height: 540,
-		width: 870,
-		lang: '<?php echo $language;?>',
+		width: '100%',
+		lang: 'ru',
 		resizable: false,
 		dragUploadAllow: true,
 		destroyOnClose: false,
+		soundPath : '<?php echo $sound_path; ?>',
 		commandsOptions: {
 		  getfile: {
 			multiple : true,
@@ -34,25 +34,15 @@ $(document).ready(function() {
 		},
 		getFileCallback : function(files, fm) {
 			if(count(files) > 1){
-				$.each(files, function(index, file) {
+				$.each(files, function(item, file) {
 					if ((file.read && file.hash)) {
 						$.ajax({
 							url: 'index.php?route=common/imagemanager/getTmb&thumb=' + encodeURIComponent(fm.path(file.hash)) + '&token=' + getURLVar('token'),
 							method: 'POST',
 							dataType: 'json',
-							success: function(data) {
-								/*html  = '  <tr id="image-row' + image_row + '">';
-								html += '  <td class="text-left"><a href="" id="thumb-image' + image_row + '" data-toggle="image" class="img-thumbnail" data-original-title="" title=""><img src="' + data.thumb + '" alt="" title="" data-placeholder=""><input type="hidden" name="product_image[' + image_row + '][image]" value="' + fm.path(file.hash) + '" id="input-image' + image_row + '"></a></td>';  
-								html += '  <td class="text-right"><input type="text" name="product_image[' + image_row + '][sort_order]" value="" placeholder="Sort Order" class="form-control"></td>';  
-								html += '  <td class="text-left"><button type="button" onclick="$(\'#image-row' + image_row + '\').remove();" data-toggle="tooltip" title="Remove" class="btn btn-danger"><i class="fa fa-minus-circle"></i></button></td>';
-								html += '  </tr>';
-								$('table#images tbody').append(html);
-
-								image_row++;
-								
-								$('#modal-image').modal('hide');*/
-							
-								parent.addImages(data.thumb, fm.path(file.hash));
+							async: false,
+							success: function(data) {							
+								parent.addImages(data.thumb, fm.path(file.hash), item);
 								
 								$('#modal-image').modal('hide');
 							}
@@ -60,7 +50,7 @@ $(document).ready(function() {
 					}
 				});
 			}else{	
-				$.each(files, function(index, file) {
+				$.each(files, function(item, file) {
 					if ((file.read && file.hash)) {
 						$.ajax({
 							url: 'index.php?route=common/imagemanager/getTmb&thumb=' + encodeURIComponent(fm.path(file.hash)) + '&token=' + getURLVar('token'),
@@ -91,12 +81,12 @@ $(document).ready(function() {
 				['info'],
 				['quicklook'],
 				['copy', 'cut', 'paste'],
-				['rm'],
 				['duplicate', 'rename', 'edit', 'resize'],
 				['extract', 'archive'],
 				['search'],
-				['view'],
-				['help']
+				['view', 'sort'],
+				['help'],
+				['fullscreen']
 			]
 		},
 		contextmenu : {

@@ -230,7 +230,6 @@ $(document).ready(function() {
 	}
 
 	$('[data-toggle=\'tooltip\']').on('remove', function() {
-		$(this).tooltip();
 		$(this).tooltip('destroy');
 	});
 });

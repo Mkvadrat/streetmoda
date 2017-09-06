@@ -2,6 +2,9 @@
 class ControllerCommonMenu extends Controller {
 	public function index() {
 		$this->load->language('common/menu');
+		$data['category_mgr_lite'] = $this->url->link('catalog/category_mgr_lite', 'token=' . $this->session->data['token'], 'SSL');
+		$this->load->language('catalog/category_mgr_lite');
+		$data['category_mgr_lite_heading_title'] = $this->language->get('category_mgr_heading_title');
 
 		$data['text_analytics'] = $this->language->get('text_analytics');
 		$data['text_affiliate'] = $this->language->get('text_affiliate');

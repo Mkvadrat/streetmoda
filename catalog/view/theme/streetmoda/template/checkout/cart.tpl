@@ -49,7 +49,7 @@
 					<?php foreach ($products as $product) { ?>
                     <div class="about-order">
 
-                        <button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" onclick="cart.remove('<?php echo $product['cart_id']; ?>');">x</button>
+                        <button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" onclick="cart.removecart('<?php echo $product['cart_id']; ?>');">x</button>
 						
 						<?php if ($product['thumb']) { ?>
 							<img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>"/>
